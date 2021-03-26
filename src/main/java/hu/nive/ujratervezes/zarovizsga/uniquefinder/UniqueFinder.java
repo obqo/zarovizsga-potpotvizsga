@@ -6,7 +6,7 @@ import java.util.List;
 public class UniqueFinder {
 
     public List<Character> uniqueChars(String str) {
-        if (str==null) {
+        if (str == null) {
             throw new IllegalArgumentException("No string!");
         }
         List<Character> result = new ArrayList<>();
