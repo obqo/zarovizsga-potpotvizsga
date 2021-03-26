@@ -7,7 +7,7 @@ public class UniqueFinder {
 
     public List<Character> uniqueChars(String str) {
         if (str==null) {
-            throw new IllegalArgumentException("String is empty!");
+            throw new IllegalArgumentException("No string!");
         }
         List<Character> result = new ArrayList<>();
         for (char item : str.toCharArray()) {
